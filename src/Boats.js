@@ -48,7 +48,7 @@ function Boats() {
       },
       {
         make: "Centurion",
-        model: "Fi25",
+        model: "fi25",
         year: "2021",
         description:
           "Appearing on the June 2019 cover, the Centurion Fi25 turns heads wherever it goes. Not only is the styling sleek and aggressive, but this boat comes loaded with wake-making prowess, thanks in large measure to the Opti-V hull.",
