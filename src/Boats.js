@@ -59,7 +59,7 @@ function Boats() {
         model: "191 SVX",
         year: "2021",
         description:
-          "A boat doesn’t have to be huge and cost a fortune to make our list of top models. Appearing on the cover the September 2019 issue, the Starcraft SVX 191 OB targets first-time boaters and budget-conscious buyers. ",
+          "A boat doesn't have to be huge and cost a fortune to make our list of top models. Appearing on the cover the September 2019 issue, the Starcraft SVX 191 OB targets first-time boaters and budget-conscious buyers. ",
         url: "./images/starcraft_svx_191.jpg",  
       },
       {
