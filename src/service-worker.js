@@ -9,7 +9,7 @@ clientsClaim();
 
 // Configure the prefix and suffix for cache names.
 setCacheNameDetails({
-  prefix: 'Boat Borrowers',  // replace with your app name
+  prefix: 'boat-borrowers',  // replace with your app name
   suffix: ''
 });
 
