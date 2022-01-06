@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
+// import bootcard from './bootcard';
 
-function Boats() {
+function Boats(props) {
   const [allBoats, setAllBoats] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
   const [duplicateResults, setDuplicateResults] = useState([]);
@@ -297,6 +298,7 @@ function Boats() {
           return (
             <div key={index} className="col-lg-4 mb-2">
               
+              {/* <boatcard boatcard={boatcard} /> */}
                 
                 {!editMode &&
 
@@ -315,7 +317,7 @@ function Boats() {
                       </div>
 
                       <div className="mt-auto mb-2">
-                        <button onClick={() => {setEditMode(true)}} className="btn btn-primary ms-2 mt-auto">Edit</button>
+                        <button type="button" onClick={() => setEditMode(true)} className="btn btn-primary ms-2 mt-auto">Edit</button>
                       </div>
                     
                     </div>
