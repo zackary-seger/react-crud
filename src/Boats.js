@@ -102,12 +102,12 @@ function Boats(props) {
 
   return (
     <div className="container">
-      <h1 className="d-flex flex-row justify-content-center">Boats in Stock</h1>
+      <h1 className="d-flex flex-row justify-content-center mt-4 mb-4">Boats in Stock</h1>
       <div className="d-flex flex-row justify-content-center mt-2">
         {!searchBoat && (
           <button
             type="button"
-            className="btn btn-primary mb-2 me-2"
+            className="btn btn-primary mb-3 me-2"
             onClick={() => setSearchBoat(true)}
           >
             Search Boats
@@ -117,7 +117,7 @@ function Boats(props) {
         {!filterBool && (
           <button
             type="button"
-            className="btn btn-primary mb-2 me-2"
+            className="btn btn-primary mb-3 me-2"
             onClick={() => setFilterBool(true)}
           >
             Filter Boats
@@ -127,7 +127,7 @@ function Boats(props) {
         {!addBoat && (
           <button
             type="button"
-            className="btn btn-primary mb-2"
+            className="btn btn-primary mb-3"
             onClick={() => setAddBoat(true)}
           >
             Add New Boat
