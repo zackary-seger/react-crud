@@ -316,19 +316,19 @@ function Boats(props) {
                         {boat.description}
                       </div>
 
-                      <div className="mt-auto mb-2">
+                      {/* <div className="mt-auto mb-2">
                         <button type="button" onClick={() => setEditMode(true)} className="btn btn-primary ms-2 mt-auto">Edit</button>
-                      </div>
+                      </div> */}
                     
                     </div>
               
                   
                 }
-                {editMode &&
+                {/* {editMode &&
                 <div key={index} className="card d-flex mb-1 h-100 shadow" style={{ border: "black solid 1px" }}>
                   <form className="container">
                     <label htmlFor="year" className="form-label mt-2">Year</label>
-                    <input type="text" name="year" className="form-control" value={boat.year} onChange={(evt) => setYear(evt.currentTarget.value)}></input>
+                    <input type="text" name="year" className="form-control" onChange={(evt) => setYear(evt.currentTarget.value)}></input>
                     <label htmlFor="make" className="form-label">Make</label>
                     <input type="text" name="make" className="form-control" value={boat.make} onChange={(evt) => setMake(evt.currentTarget.value)}></input>
                     <label htmlFor="model" className="form-label">Model</label>
@@ -339,7 +339,7 @@ function Boats(props) {
                     <button onClick={() => {setEditMode(false)}} className="btn btn-primary">Cancel</button>
                   </form>
                 </div>
-                }
+                } */}
                 
               
             </div>
